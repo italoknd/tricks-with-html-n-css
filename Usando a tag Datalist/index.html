@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Datalist</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Usando a tag Datalist:</h1>
+      <p>O elemento <strong>&lt;Datalist&gt;</strong> mostra uma lista de elemetos predefinidos como opção para uma caixa de entrada de texto. Observe abaixo:</p>
+    </section>
+
+    <section class="p-4">
+      <label for="weekday" class="text-purple-700 mr-2">
+        Selecione o dia:
+      </label>
+      <input list="weekdays">
+      <datalist id="weekdays">
+        <option value="Domingo"></option>
+        <option value="Segunda-Feira"></option>
+        <option value="Terça-Feira"></option>
+        <option value="Quarta-Feira"></option>
+        <option value="Quinta-Feira"></option>
+        <option value="Sexta-Feira"></option>
+        <option value="Sábado"></option>
+      </datalist>
+    </section>
+  </main>
+</body>
+</html>
