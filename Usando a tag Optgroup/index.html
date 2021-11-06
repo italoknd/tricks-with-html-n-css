@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Optgroup</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Usando o elemento Optgroup:</h1>
+      <p>O elemento <mark><strong>&lt;optgroup&gt;</strong></mark> cria um agrupamento de opções dentro do elemento <strong>&lt;Select&gt;</strong>. Observe abaixo:</p>
+    </section>
+
+    <section class="p-4" id="lista">
+      <label for="available" class="text-purple-700 mr-2">Filmes em cartaz:</label>
+      <select name="available" id="available" class="shadow bg-white">
+      <optgroup label="19:00">
+        <option value="1">Avengers: Endgame</option>
+        <option value="2">Spider-Man: No Way Home</option>
+        <option value="3">The Batman</option>
+      </optgroup>
+      <optgroup label="20:00">
+        <option value="4">Shang-Chi</option>
+        <option value="5">Sonic 2</option>
+      </optgroup>
+      </select>
+    </section>
+
+    <section>
+      <p>Replica do código:</p>
+      <img src="img/optgroup-code.png" alt="">
+    </section>
+  </main>
+</body>
+</html>
