@@ -13,6 +13,10 @@ mark{
   margin-bottom: 120px;
 }
 
+#available{
+  cursor: pointer;
+}
+
 section > img{
   max-width: 490px;
 }
